@@ -1,0 +1,25 @@
+{
+  "name": "telpomylobby",
+  "version": "0.1.0",
+  "description": "Cordova plugin to hook telpo tps980",
+  "main": "plugin.xml",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorabhSofttrix/telpomylobby.git"
+  },
+  "keywords": [
+    "telpo",
+    "telpo",
+    "tps980",
+    "codrova:android"
+  ],
+  "author": "Sorabh Softtrix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sorabhSofttrix/telpomylobby/issues"
+  },
+  "homepage": "https://github.com/sorabhSofttrix/telpomylobby#readme"
+}

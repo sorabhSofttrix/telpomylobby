@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-telpomylobby" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>telpoMyLobby</name>
+	<js-module name="telpoMyLobby" src="www/telpoMyLobby.js"><clobbers target="cordova.plugins.telpoMyLobby" /></js-module>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="telpoMyLobby"><param name="android-package" value="cordova-plugin-telpomylobby.telpoMyLobby" /></feature>
+		</config-file>
+		<config-file parent="/*" target="AndroidManifest.xml"></config-file>
+		<source-file src="src/android/telpoMyLobby.java" target-dir="src/cordova-plugin-telpomylobby/telpoMyLobby" />
+		<framework custom="true" src="src/android/telpomylobby.gradle" type="gradleReference" />
+	</platform>
+</plugin>
